@@ -20,7 +20,14 @@ function App() {
       }}
     >
       <h1>{counter}</h1>
-      <button onClick={addOne}>Click Me!</button>
+      <button
+        onClick={addOne}
+        style={{
+          fontFamily: "serif",
+        }}
+      >
+        Click Me!
+      </button>
     </div>
   );
 }
